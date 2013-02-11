@@ -1,21 +1,6 @@
 # Set parallel tasks
 set parallelism     => "5";
 
-# Set user
-set user            => "";
-
-# Set password for user
-set password        => "";
-
-# Set sudo password
-set sudo_password   => "";
-
-# Activate sudo to run commands globaly
-sudo -on;
-
-# Use password authentification
-pass_auth;
-
 # Set the required modules
 require Rex::Lang::Java;
 require Rex::Framework::Cloudera::PkgRepository;
